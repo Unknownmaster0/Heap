@@ -65,7 +65,7 @@ int kSorted(vector<vector<int>> &a, int k, int n) {
     int mini = q.top()->data;
     int start = mini, end = maxi;
     // cout<<"start -> "<<start<<" end -> "<<end<<endl;
-    while(!q.empty())
+    while(q.size() > 0)
     {
         // update the range of start and end
         element* temp = q.top();

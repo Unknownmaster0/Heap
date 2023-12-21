@@ -24,7 +24,7 @@ class comparator{
         }
 };
 
-// Time complexity -> O(n*k * log(n*k)) Space complexity -> O(n * k)
+// Time complexity -> O(n*k * log(n*k)) Space complexity -> O(k)
 vector<int> mergeKSortedArrays(vector<vector<int>>&arr, int k)
 {
     // step 1 -> I need one user defined data type of the priority queue.
